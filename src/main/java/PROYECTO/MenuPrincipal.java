@@ -92,18 +92,38 @@ public class MenuPrincipal extends javax.swing.JFrame {
         getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 280, 150, 70));
 
         jButton8.setText("ESTADO");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 360, -1, -1));
 
         jButton9.setText("ESTADO");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 190, -1, -1));
 
         jButton10.setText("ESTADO");
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 190, -1, -1));
 
         jButton11.setText("ESTADO");
         getContentPane().add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 190, -1, -1));
 
         jButton12.setText("ESTADO");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 360, -1, -1));
 
         jButton13.setText("ESTADO");
@@ -125,6 +145,22 @@ public class MenuPrincipal extends javax.swing.JFrame {
         abrir.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton12ActionPerformed
 
     /**
      * @param args the command line arguments
